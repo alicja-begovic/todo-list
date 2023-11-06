@@ -9,11 +9,10 @@ function App() {
   return (
     <div>
       <Header />
-      <h2>My list</h2>
       <ul>
-        {DAILY_LIST.map(dailyList => 
+        {DAILY_LIST.map((dailyList) => (
           <ListItem {...dailyList} />
-        )}
+        ))}
       </ul>
     </div>
   );

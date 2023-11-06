@@ -1,5 +1,6 @@
-header {
+.header {
     text-align: center;
-    margin: 3rem;
-    color: #fff;
+    margin: 2rem;
+    color: #8567fd;
+    font-weight: 500;
 }
